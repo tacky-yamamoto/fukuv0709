@@ -88,6 +88,7 @@
             this.shobon.Size = new System.Drawing.Size(108, 27);
             this.shobon.TabIndex = 4;
             this.shobon.Text = "(´・ω・`)";
+            this.shobon.Click += new System.EventHandler(this.shobon_Click);
             // 
             // Form1
             // 
@@ -101,6 +102,7 @@
             this.Controls.Add(this.ue);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

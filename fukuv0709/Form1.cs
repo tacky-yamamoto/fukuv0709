@@ -36,5 +36,15 @@ namespace fukuv0709
         {
             shobon.Top = shobon.Top + 10;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void shobon_Click(object sender, EventArgs e)
+        {
+            shobon.Text = "(`・ω・´)";
+        }
     }
 }
